@@ -203,3 +203,21 @@ hr {
     width: 100%;
     overflow: hidden;
 }
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-align: center;
+    border: 2px solid #fafafa;
+    /* add box-sizing:border-box to include size of border in overall screen width */
+    box-sizing:border-box;
+}
+
+#times h2 {
+    color: #fafafa;
+}
